@@ -215,7 +215,7 @@ a {
   opacity: 1;
 }
 
-.biography {
+.body-text {
   max-width: 1000px;
   font-size: clamp(16pt, 1.5vw, 30pt);
   list-style-type: none;
