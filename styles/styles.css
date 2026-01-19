@@ -181,8 +181,10 @@ a {
   border: solid 2px var(--base-color);
   align-items: center;
   justify-items: center;
-  transition: background-color 0.3s ease;
   position: relative;
+  cursor: pointer;
+
+
 }
 
 .project-box img {
@@ -242,4 +244,65 @@ a {
 
 .asterisk:hover {
   fill: var(--accent-color);
+}
+
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-top: -1px;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.modal img {
+    width: 80%;
+    object-fit: contain;
+    padding: 40px;
+    max-height: 90vh;
+}
+
+@media all and (max-width: 1000px) {
+  .modal img {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+
+.closeBtn {
+    color: white;
+    background-color: transparent;
+    font-size: 3vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.closeBtn:hover {
+    color: var(--accent-color);
+}
+
+@media all and (max-width: 1000px) {
+  .closeBtn {
+    font-size: 12vw;
+  }
 }
