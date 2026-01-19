@@ -15,18 +15,21 @@
     <title>Phoebe Biggin</title>
   </head>
   <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <defs>
+        <symbol id="asterisk-icon" viewBox="0 0 24 24">
+          <polygon
+            points="24 9.6 17.7 9.6 22.2 5.1 18.8 1.8 14.4 6.3 14.4 0 9.6 0 9.6 6.2 5.2 1.8 1.9 5.1 6.4 9.6 0 9.6 0 14.4 6.3 14.4 1.9 18.8 5.2 22.1 9.6 17.7 9.6 24 14.4 24 14.4 17.6 18.8 22.1 22.2 18.8 17.8 14.4 24 14.4 24 9.6"
+          />
+        </symbol>
+      </defs>
+    </svg>
+
     <header class="navigation navigation--top">
       <div class="standard-spacing">
         <a href="/index.html">
-          <svg
-            id="asterisk"
-            xmlns="http://www.w3.org/2000/svg"
-            version="1.1"
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="24 9.6 17.7 9.6 22.2 5.1 18.8 1.8 14.4 6.3 14.4 0 9.6 0 9.6 6.2 5.2 1.8 1.9 5.1 6.4 9.6 0 9.6 0 14.4 6.3 14.4 1.9 18.8 5.2 22.1 9.6 17.7 9.6 24 14.4 24 14.4 17.6 18.8 22.1 22.2 18.8 17.8 14.4 24 14.4 24 9.6"
-            />
+          <svg class="asterisk" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+            <use href="#asterisk-icon" />
           </svg>
         </a>
       </div>
@@ -82,7 +85,7 @@
             <div class="frame">
               <img
                 class="framed-img thumbnail slidein"
-                src="/images/ecommerce-ShotA.png"
+                src="/images/ecommerce-mobileA.png"
                 alt="placeholder"
               />
             </div>
@@ -94,7 +97,7 @@
     <section class="parent major-spacing">
       <div class="casestudy-box">
         <p class="subheading-text">Projects</p>
-        <div class="content-box">
+        <div class="content-box click-projects">
           <a href="/sites/template.html" class="project-box frame">
             <img
               class="framed-img"
@@ -126,7 +129,7 @@
           <a href="#" class="project-box">
              <img
               class="framed-img"
-              src="/images/Celebration-cover_Page_1.png"
+              src="/images/celebration-coverclose.png"
               alt="placeholder"
             />
             <p class="standard-spacing subheading-text">2022 Presentation Evening</p>
@@ -167,18 +170,11 @@
             />
             <p class="standard-spacing subheading-text">Station House</p>
           </a>
+
           <a href="/sites/extra.html" class="project-box" id="extras">
-            <svg
-              id="asterisk"
-              class="large-logo"
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              viewBox="0 0 24 24"
-            >
-              <polygon
-                points="24 9.6 17.7 9.6 22.2 5.1 18.8 1.8 14.4 6.3 14.4 0 9.6 0 9.6 6.2 5.2 1.8 1.9 5.1 6.4 9.6 0 9.6 0 14.4 6.3 14.4 1.9 18.8 5.2 22.1 9.6 17.7 9.6 24 14.4 24 14.4 17.6 18.8 22.1 22.2 18.8 17.8 14.4 24 14.4 24 9.6"
-              />
-            </svg>
+             <svg class="asterisk large-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+            <use href="#asterisk-icon" />
+          </svg>
             <p class="standard-spacing subheading-text">Extra</p>
           </a>
         </div>
@@ -201,8 +197,15 @@
       </div>
 
       <div class="navigation">
+        <div> 
         <a class="standard-spacing button">Email</a>
         <a class="standard-spacing button">Linkedin</a>
+        </div>
+        <a href="#">
+        <svg class="asterisk" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+            <use href="#asterisk-icon" />
+          </svg>
+        </a>
       </div>
     </footer>
   </body>
