@@ -169,6 +169,7 @@ a {
   min-height: 80px;
   font-size: clamp(100%, 2vw, 40pt);
   border: solid 2px var(--base-color);
+  border-radius: 15px;
   align-items: center;
 }
 
@@ -187,6 +188,7 @@ a {
   gap: 1rem;
   grid-template-columns: 1fr;
   border: solid 2px var(--base-color);
+  border-radius: 15px;
   align-items: center;
   justify-items: center;
   position: relative;
