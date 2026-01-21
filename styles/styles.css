@@ -22,6 +22,11 @@
   body {
     margin: 2vh 2vh;
   }
+
+  #about{
+    padding-top: 60vh;
+    padding-bottom: 60vh;
+  }
 }
 
 body {
@@ -247,7 +252,7 @@ a {
 
 .body-text {
   max-width: 1000px;
-  font-size: clamp(16pt, 1.5vw, 30pt);
+  font-size: clamp(14pt, 1.5vw, 30pt);
   list-style-type: none;
 }
 
