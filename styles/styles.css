@@ -58,7 +58,7 @@ a {
 }
 
 .main-text {
-  font-size: clamp(16pt, 3.5vw, 50pt);
+  font-size: clamp(16pt, 3vw, 50pt);
   text-align: center;
   margin: var(--space-large) auto;
 }
@@ -154,6 +154,7 @@ a {
   margin: 0 auto;
   display: grid;
   border: solid 2px var(--base-color);
+  border-radius: 15px;
 }
 
 .content-box > *,
